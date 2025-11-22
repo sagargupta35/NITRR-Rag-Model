@@ -10,4 +10,4 @@ embed_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
 )
 
 def get_collection(name: str):
-    return client.get_or_create_collection(name, embedding_function=embed_fn)
+    return client.get_or_create_collection(name, embedding_function=embed_fn) # type: ignore
