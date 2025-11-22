@@ -1,0 +1,685 @@
+================================================================================
+CONVERSATION LOG
+================================================================================
+
+[USER]
+hello
+--------------------------------------------------------------------------------
+[ASSISTANT]
+Hello! I am your NIT Raipur college information assistant. How can I help you today?
+--------------------------------------------------------------------------------
+[USER]
+I am sagar gupta from 7th semester IT department
+--------------------------------------------------------------------------------
+[ASSISTANT]
+Hello Sagar. How can I help you with information regarding the 7th semester of the IT department?
+--------------------------------------------------------------------------------
+[USER]
+help me study for my nnfl semester examination. Give me the course materials, important topics and also the professors i can meet for the help.
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: f15882be-12bc-4a26-bcf0-41cc46e74871
+        name: syllabus_tool
+        args: {
+        "department": "it",
+        "semester": 7
+}
+--------------------------------------------------------------------------------
+[TOOL (syllabus_tool)]
+[{"name": "Information Retrieval", "semester": 7, "department": "it", "credits": "3-0-0, (3)", "status": "Program Elective", "code": "IT107206IT", "pre_requisites": ["Computational Mathematics"], "units": [{"unit_number": 1, "unit_name": "Introduction:", "topics": ["History of IR, Components of IR, Issues, Open source Search engine Frameworks. The impact of the web on IR, role of artificial intelligence (AI) in IR, IR Versus Web Search, Components of a Search engine."]}, {"unit_number": 2, "unit_name": "Information Retrieval:", "topics": ["Boolean and vector -space retrieval models, Term weighting, TF -IDF weighting - cosine similarity, Preprocessing, Inverted indices - efficient processing with sparse vectors , Language Model based IR - Probabilistic IR\u2013Latent Semantic Indexing, Relevance feedback and query expansion."]}, {"unit_number": 3, "unit_name": "Web Search Engine:", "topics": ["Introduction and Crawling ,Web search overview, web structure, the user, paid placement, search engine optimization/ spam. Web size measurement, search engine optimization/spam, Web Search Architectures, crawling, meta -crawlers- Focused Crawling, web indexes, Near -duplicate detectio n, Index Compression, XMLretrieval."]}, {"unit_number": 4, "unit_name": "Web Search - Link Analysis and Specialized Search:", "topics": ["Link Analysis, hubs and authorities, Page Rank and HITS algorithms, Searching and Ranking, Relevance Scoring and ranking for Web, Similarity, Hadoop & Map Reduce - Evaluation, Personalized search , Collaborative filtering and content -based recommendation o f documents and products, handling \u201cinvisible\u201d Web Snippet generation, Summarization, Question Answering, Cross - Lingual Retrieval."]}], "course_material": ["C. Manning, P. Raghavan, and H. Sch\u00fctze, Introduction to Information Retrieval , Cambridge University Press, 2008.", "Ricardo Baeza -Yates and Berthier Ribeiro \u2013 Neto, Modern Information Retrieval: The Concepts and Technology behind Search, 2nd Edition, ACM Press Books 2011.", "W. Bruce Croft, Donald Metzler and Trevor Strohman, Search Engines: Information Retrieval in Practice, 1st Edition Addison Wesley, 2009.", "Mark Levene, An Introduction to Search Engines and Web Navigation, 2nd Edition Wiley, 2010.", "Stefan Buettcher, Charles L. A. Clarke, Gordon V. Cormack, Information Retrieval: Implementing and Evaluating Search Engines, The MIT Press, 2010.", "David A. Grossman and OphirFrieder \u201cInformation Retrieval: Algorithms and Heuristics: The Information Retrieval Series\u201d, 2nd Edition, Springer, 2004."]}, {"name": "Bio- Informatics", "semester": 7, "department": "it", "credits": "3-0-0, (3)", "status": "Program Elective", "code": "IT107207IT", "pre_requisites": ["Computational Mathematics", "Data Mining", "Artificial Intelligence", "Data Science & Machine Learning"], "units": [{"unit_number": 1, "unit_name": "Introduction to Bio-Informatics", "topics": ["Definition and History of Bioinformatics", "Internet and Bioinformatics", "Data generation: Generation of large scale molecular biology data through Genomesequencing, Protein sequencing, Gel electrophoresis, NMR Spectroscopy, X-Ray Diffraction,and microarray", "Introduction to data types and Source", "Biological Databases;Nucleic acid databases (NCBI, DDBJ, and EMBL)", "Protein databases (Primary, Composite, and Secondary)", "Specialized Genome databases: (SGD, TIGR, and ACeDB)", "Structure databases (CATH, SCOP, and PDBsum)", "Applications of Bioinformatics"]}, {"unit_number": 2, "unit_name": "Bio-Computing", "topics": ["Introduction to String Matching Algorithms", "Database Search Techniques", "Sequence Comparison and Alignment Techniques", "Use of Biochemical Scoring Matrices", "Introduction to Graph Matching Algorithms", "Automated Genome Comparison and its Implication", "Automated Gene Prediction", "Automated Identification of Bacterial Operons and Pathways"]}, {"unit_number": 3, "unit_name": "Genome Analysis and Gene Mapping", "topics": ["Introduction to Signaling Pathways and Pathway Regulation", "Gene Arrays", "Analysis of Gene Arrays using programming paradigms: Greedy Algorithms, Dynamic Programming Algorithms, Dot Plots", "Analysis tools for sequence and data bank", "sequence homology using BLAST and FASTA", "FASTA and BLAST Algorithm comparison"]}, {"unit_number": 4, "unit_name": "Machine Learning", "topics": ["Machine-Learning Foundations: The Probabilistic Framework", "Machine Learning Algorithms", "Applications of Neural Networks in Bioinformatics", "Ontologies, interchange languages and, standardization efforts", "General Introduction to XML, UMLS, CORBA, PYTHON and OMG/LIFESCIENCE"]}], "course_material": ["Claverie , J.M. and Notredame C. 2003 Bioinformatics for Dummies. Wiley Editor.", "Letovsky, S.I. 1999 Bioinformatics. Kluwer Academic Publishers.", "Baldi, P. and Brunak, S. 1998 Bioinformatics. The MIT Press.", "Setubal, J. and Meidanis, J. 1996 Introduction to Computational Molecular Biology. PWS Publishing Co., Boston.", "Lesk, A.M. 2002 Introduction to Bioinformatics. Oxford University Press."]}, {"name": "Secure Software Engineering", "semester": 7, "department": "it", "credits": "3-0-0, (3)", "status": "Program Elective", "code": "IT107208IT", "pre_requisites": ["Data Structures", "Software Engineering"], "units": [{"unit_number": 1, "unit_name": "Software assurance and software security", "topics": ["Software assurance and software security", "threats to software security", "sources of software insecurity", "benefits of detecting software security", "managing secure software development."]}, {"unit_number": 2, "unit_name": "Defining properties of secure software", "topics": ["Defining properties of secure software", "how to influence the security properties of software", "how to assert and specify desired security properties", "Secure software Architecture and Design: Software security practices for architecture and design: Architectural risk analysis."]}, {"unit_number": 3, "unit_name": "Software security knowledge for Architecture and Design", "topics": ["Software security knowledge for Architecture and Design: security principles", "security guidelines", "and attack patterns", "secure design through threat modelling", "Writing secure software code: Secure coding techniques", "Secure Programming: Data validation."]}, {"unit_number": 4, "unit_name": "Secure Programming: Using Cryptography Securely", "topics": ["Secure Programming: Using Cryptography Securely", "Creating a Software Security Programs", "Secure Coding and Testing: code analysis - source code review", "coding practices", "static analysis", "software security testing", "security testing consideration through SDLC."]}], "course_material": ["Julia H Allen, Sean J Barnum, Robert J Ellison, Gary McGraw, Nancy R Mead, \u201c Software Security Engineering: A Guide for Project Managers\u201d, Addison Wesley", "Ross J Anderson, \u201c Security Engineering: A Guide to Building Dependable Distributed Systems\u201d, 2nd Edition, Wiley, 2008.", "Howard, M. and LeBlanc, D., \u201cWriting Secure Code\u201d, 2nd Edition, Microsoft Press, 2003."]}, {"name": "Neural Networks and Fuzzy Logic", "semester": 7, "department": "it", "credits": "3-0-0, (3)", "status": "Open Elective", "code": "IT107301IT", "pre_requisites": ["Mathematics", "Discrete Structures", "Fundamental of Computing"], "units": [{"unit_number": 1, "unit_name": "Introduction to Artificial Neural Networks", "topics": ["Elementary Neurophysiology, Biological Neuron, Biological and Artificial Neuron Models,characteristics of ANN, Historical developments, Neural Networks viewed as directed graphs,Feedback from neurons to ANN, Artificial Intelligence and Neural Networks, McC ulloch-PittsModel, Network Architectures, Recurrent Networks, Topologies, overview of Single -layered Feedforward Networks and Multi -layered Feed - forward Networks. Classification Taxonomy of ANN, Different Learning Strategy -Supervised and Unsupervisedlearn ing, Reinforcement, Learning rules, Memory models, Stability and Convergence, Activation andSynaptic Dynamics, Competitive, Error-Correction Learning"]}, {"unit_number": 2, "unit_name": "Associated Memories and Supervised network", "topics": ["Associative Memory, HebbianLearning, General concept of associated memory, Bidirectional Associated memory (BAM)architecture, BAM Training algorithm, Hopfield Network Architecture, Discrete and continuousversions, Storage and recall algorithm, stability an alysis. Perceptron model, least mean square algorithm(Rosenblat Algorithm), ADALINEalgorithm and applications , MADALINE, Algorithm and applications, Multilayered Feed Forward NeuralNetworksmodel, BackpropagationAlgorithm, XOR \u2013 Problem, The generalized Del tarule, BPN Applications."]}, {"unit_number": 3, "unit_name": "Unsupervised network and applications of network model", "topics": ["Self-organizing Feature mapalgorithm, Learning Vector Quantization, Counter Propagation Network. Architecture, Algorithm and applications of Complex Pattern Recognition: ART/ART-1, ART-2, Cognitron, Structure & training, Neo-cognitron architecture, Data processing -performance, addition of lateralinhibition& feedback to the neo -cognitron, Character Recognition and Handwritten Digit recognition,Simulated Annealing, Support Vector machines."]}, {"unit_number": 4, "unit_name": "Neural Fuzzy Systems", "topics": ["Introduction to classical sets -properties, Operations, and relations: Introduction to Fuzzy sets,membership, uncertainty, operations, relations, cardinalities, Examples of Fuzzy logic, defuzzification to crisps sets and its methods, Fuzzy Associative memor ies, Fuzziness in neural networks and examples, Fuzzy logic control and fuzzy classification."]}], "course_material": ["Artificial Neural Networks by B. Yagna Narayan, PHI", "Neural Networks Fuzzy Logic & Genetic Alogrithms by Rajshekaran&Pai, Prentice Hall", "Principles of Soft Computing by S. N. Sivanandam, S. N. Deepa, Wiley-India.", "Introduction to Neural Networks using Matlab 6.0 by S.N. Sivanandam, S Sumathi, S.N.Deepa, TMH.", "Neural Networks by James A. Freeman and David M. Strapetuns, Prentice Hall.", "Neural Network & Fuzzy System by Bart Kosko, PHI.", "Neural Network Design by Hagan Demuth Deale Vikas Publication House."]}, {"name": "Human Computer Interaction Design", "semester": 7, "department": "it", "credits": "3-0-0, (3)", "status": "Open Elective", "code": "IT107302IT", "pre_requisites": ["Computer Programming", "Digital Logic Analysis and Design"], "units": [{"unit_number": 1, "unit_name": "Introduction to HCI:", "topics": ["A brief history of HCI", "Applications of HCI", "Interactive system design (theory and practice): Concept of usability \u2013 definition and Elaboration", "HCI and Software Engineering", "GUI design and aesthetics", "Prototyping techniques"]}, {"unit_number": 2, "unit_name": "Models in HCI:", "topics": ["Introduction to different types of models", "GOMS family of models (KLM and CMN -GOMS)", "Fitts\u2019 law and Hick-Hyman\u2019s law", "Model-based design case studies"]}, {"unit_number": 3, "unit_name": "Cognitive Framework, HCI Interfaces and Evaluation:", "topics": ["Cognitive Framework of HCI", "Perception & Representation", "Attention and Interface Design", "Memory in Interface Design", "Knowledge Representation", "User Modeling", "Interaction with Natural Languages", "Next Generation Interface", "UI Evaluation", "Cognitive Walkthrough", "Heuristic Evaluation", "Evaluation with Cognitive Models", "Evaluation with Users", "Model-based Evaluation"]}, {"unit_number": 4, "unit_name": "Case Studies:", "topics": ["Case Study 1 \u2013 Multi-Key press Hindi Text Input Method on a Mobile Phone", "Case Study 2 \u2013 GUI design for a mobile phone based Matrimonial Application", "Case Study 3 \u2013 Employment Information System for unorganized construction workers on a Mobile Phone"]}], "course_material": ["Dix A., Finlay J., Abowd G. D. and Beale R. Human Computer Interaction, 3rd edition, Pearson Education, 2005.", "Preece J., Rogers Y., Sharp H., Baniyon D., Holland S. and Carey T. Human Computer Interaction, Addison-Wesley, 1994.", "Smith AtakanSerengal, \u201cHuman-Computer Interaction\u201d, Cengage Learning.", "B. Shneiderman; Designing the User Interface, Addison Wesley 2000 (Indian Reprint).", "Brian Fling, \u201cMobile Design and Development\u201d, First Edition ,O\u201fReilly Media Inc., 2009", "Bill Scott and Theresa Neil, \u201cDesigning Web Interfaces\u201d, First Edition, O\u201fReilly, 2009."]}, {"name": "Computer Vision", "semester": 7, "department": "it", "credits": "3-0-0, (3)", "status": "Open Elective", "code": "IT107303IT", "pre_requisites": ["Mathematics", "Data Mining", "Digital Image Processing"], "units": [{"unit_number": 1, "unit_name": "Introduction", "topics": ["Image Processing", "Computer Vision and Computer", "Graphics", "Computer Vision - Low-level", "Mid-level", "High-level", "Overview of Diverse Computer Vision Applications: Document Image Analysis", "Biometrics", "Object Recognition", "Tracking", "Medical Image Analysis", "Con tent-Based Image Retrieval", "Video Data Processing", "Multimedia", "Virtual Reality and Augmented Reality"]}, {"unit_number": 2, "unit_name": "Depth estimation and Multi-camera views", "topics": ["Perspective", "Binocular Stereopsis: Camera and Epipolar Geometry", "Homography", "Rectification", "DLT", "RANSAC", "3-D reconstruction framework", "Auto-calibration."]}, {"unit_number": 3, "unit_name": "Feature Extraction", "topics": ["Edges - Canny", "LOG", "DOG", "Line detectors (Hough Transform)", "Corners - Harris and Hessian Affine", "Orientation Histogram", "SIFT", "SURF", "HOG", "GLOH", "Scale -Space Analysis - Image Pyramids and Gaussian derivative filters", "Gabor Filters and DWT."]}, {"unit_number": 4, "unit_name": "Motion Estimation & Pattern Analysis", "topics": ["Motion parameter estimation", "Regularization theory", "Optical computation", "Stereo Vision", "Motion estimation", "Structure from motion", "Clustering: K -Means", "K -Medoids", "Mixture of Gaussians", "Classification: Discriminant Function", "Supervised", "Un-supervised", "Semi-supervised", "Classifiers: Bayes", "KNN", "ANN models", "Dimensionality Reduction: PCA", "LDA", "ICA", "Non-parametric methods."]}], "course_material": ["Richard Szeliski, Computer Vision: Algorithms and Applications, Springer -Verlag London Limited 2011.", "Computer Vision - A modern approach, by D. Forsyth and J. Ponce, Prentice Hall", "Robot Vision, by B. K. P. Horn, McGraw-Hill.", "Introductory Techniques for 3D Computer Vision, by E. Trucco and A. Verri, Publisher: PrenticeHall", "Richard Hartley and Andrew Zisserman, Multiple View Geometry in Computer Vision, Second Edition, Cambridge University Press, March 2004.", "K. Fukunaga; Introduction to Statistical Pattern Recognition, Second Edition, Academic Press, Morgan Kaufmann, 1990.", "R.C. Gonzalez and R.E. Woods, Digital Image Processing, Addison- Wesley, 1992.", "Christopher M. Bishop; Pattern Recognition and Machine Learning, Springer, 2006"]}, {"name": "Internet of Things", "semester": 7, "department": "it", "credits": "3-1-0, (4)", "status": "Core", "code": "IT107101IT", "pre_requisites": ["Computer Networks"], "units": [{"unit_number": 1, "unit_name": "Introduction to The Internet of Things", "topics": ["IoT Definition", "Elements of an IoT ecosystem", "IoT applications", "trends and implications", "sensing components and devices", "Wearable sensors and their Applications", "operating System for IoT", "Industrial IoT: case study: Agriculture", "Healthcare", "Process Automation & monitoring etc."]}, {"unit_number": 2, "unit_name": "Internet of Things\u2013 Architecture and Communication Protocol", "topics": ["Layered Architecture for IoT", "Protocol Architecture of IoT", "Infrastructure Protocols: MAC protocols for sensor network", "S-MAC", "IEEE 802.15.4", "Near Field Communication (NFC)", "RFID", "ZigBee", "Bluetooth Low Energy (BLE)", "IPv6 over Low -Power Wireless Personal Area Networks (6LoWPAN)", "Long Term Evolution-Advanced", "Z-Wave", "Components of Z -Wave Network", "Protocols for IoT Service Discovery: DNS service discovery", "multicast domain name system."]}, {"unit_number": 3, "unit_name": "Internet of Things \u2013 Networking Protocol", "topics": ["Constrained Application Protocol (CoAP)", "Message Queue Telemetry Transport (MQTT)", "Extensible Messaging and Presence Protocol (XMPP)", "Advanced Message Queuing Protocol (AMQP)", "Data Distribution Service (DDS)", "Service Discovery Protocols", "Routing Protocol f or Low Power and Lossy Networks (RPL)", "sensor networks", "unique constraints and challenges", "advantages of ad -hoc/sensor network", "sensor network architecture", "data dissemination and gathering protocol."]}, {"unit_number": 4, "unit_name": "Platforms for IOT Applications and Analytics", "topics": ["Role of the cloud and fog resources in the delivery of IoT services", "The IoT Building Blocks", "Connected Devices", "IoT or Sensor Data Gateway", "The IoT Data Analytics Platforms: IBM Watson IoT Platform", "Splunk Software for IoT Data", "Amazon Web Service IoT Platform", "Azure IoT Hub", "The IoT Data Virtualization Platforms", "IoT Data Visualization Platform", "Security and Privacy in IoT"]}], "course_material": ["Pethuru Raj and Anupama C. Raman, \u201cThe Internet of Things: Enabling Technologies, Platforms, and Use Cases\", CRC Press, 2017.", "Simone Cirani, Gianluigi Ferrari, Marco Picone, Luca Veltri, \u201cInternet of Things: Architectures, Protocols and Standards,\u201d Wiley, 2018.", "Fei Hu, \u201cSecurity and Privacy in Internet of Things (IoTs): Models, Algorithms, and Implementations,\u201d CRC Press, 2016.", "R. Buyya and A.K. Dastjerdi (eds.), \u201cInternet of Things: Principles and Paradigms,\u201d Cambridge, MA, USA: Morgan Kaufmann (Elsevier), 2016."]}, {"name": "Distributed Systems", "semester": 7, "department": "it", "credits": "3-1-0, (4)", "status": "Core", "code": "IT107102IT", "pre_requisites": ["Operating Systems"], "units": [{"unit_number": 1, "unit_name": "Introduction & Models of Distributed Systems", "topics": ["Concept of Distributed system,Characteristics and Challenges of Distributed Systems, Examples of Distributed Systems. Physical Model, Fundamental model and Architectural model of Distributed Systems."]}, {"unit_number": 2, "unit_name": "Clocks in Distributed Systems", "topics": ["Concept of clock in Distributed System, Limitation of Distributed System, Clock synchronization,Lamport\u2019s Logical Clock, Vector Clocks, Causal ordering of messages, Chandy -Lamport\u2019s Global State Recording Algorithm."]}, {"unit_number": 3, "unit_name": "Distributed Mutual Exclusion, Election & Consensus", "topics": ["Distributed Mutual Exclusion: Concept ofCritical Section, Central Server Algorithm, Ring -based Algorithm,Ricart-AgrawalaAlgorithm.Election Algorithms: Ring -based election algorithm, Bully\u2019s algorithm. Consensus Algorithms: Floodset algorithm, Byzantine Gen eral Agreement Problem."]}, {"unit_number": 4, "unit_name": "Distributed Deadlock Detection, Storage, Transactions, Replication & Recovery", "topics": ["The Ho -Ramamoorthy\u2019stwo-phase algorithm and one -phase algorithm.Distributed Storage, Distributed Transaction, Replication, Recovery inDistributed System, Commit protocol - The Two -Phase commit protocol."]}], "course_material": ["1. G. Couloris, \u201cDistributed System, Concept & Design,\u201d Addison Wesley 1994.", "2. Tanenbaum, \u201cDistributed Systems,\u201d PHI.", "3. P. K. Sinha, \u201cDistributed Operating Systems,\u201d PHI.", "4. Michel J. Quinn, \u201c Parallel Computing: Theory and Practice,\u201d McGraw-Hill.", "1. MukeshSinghal, Niranjan G. Shivaratri, \"Advanced concepts in operating systems: distributed, database, and multiprocessor operating systems\", MGH, 1/E, 1994.", "2. J.A.Shar,. \"An introduction to distributed and parallel processing\",1986."]}, {"name": "Text Mining", "semester": 7, "department": "it", "credits": "3-0-0, (3)", "status": "Program Elective", "code": "IT107201IT", "pre_requisites": ["Data Mining & Analysis"], "units": [{"unit_number": 1, "unit_name": "Introduction", "topics": ["Overview of text mining", "Definition", "General Architecture", "Algorithms", "Core Operations", "Pre-processing", "Types of Problems", "basics of document classification", "information retrieval", "clustering and organizing documents", "information extraction", "prediction and evaluation", "Textual information to numerical vectors", "Collecting documents", "document standardization", "tokenization", "lemmatization", "vector generation for prediction", "sentence boundary determination", "evaluation performance"]}, {"unit_number": 2, "unit_name": "Text Categorization and Clustering", "topics": ["Text Categorization \u2013 Definition", "Document Representation", "Feature Selection", "Decision Tree Classifiers", "Rule -based Classifiers", "Probabilistic and Naive Bayes Classifiers", "Linear Classifiers", "Classification of Linked and Web Data", "Meta -Algorithms", "Clustering - Definition", "Vector Space Models", "Distance -based Algorithms", "Word and Phrase-based Clustering", "Semi-Supervised Clustering", "Transfer Learning"]}, {"unit_number": 3, "unit_name": "Information Retrieval and Information Extraction", "topics": ["Information retrieval and text mining - keyword search", "nearest-neighbor methods", "similarity", "web -based document search", "matching", "inverted lists", "evaluation", "Information extraction \u2013 Architecture", "Term Frequency", "TF-IDF", "Co -reference", "Named Entity and Relation Extraction", "Template filling and database construction", "Applications", "Unsupervised Algorithms for Information Extraction", "Text Summarization Techniques", "Topic Representation", "Influence of Context", "Indicator Representations", "Pattern Extraction", "Apriori Algorithm", "FP Tree algorithm"]}, {"unit_number": 4, "unit_name": "Probabilistic Models& Recent Trends", "topics": ["Probabilistic Models for Text Mining", "Mixture Models", "Stochastic Processes in Bayesian Nonparametric Models", "Graphical Models", "Relationship Between Clustering, Dimension Reduction and Topic Modeling", "Latent Semantic Indexing", "Probabilistic Latent Semantic Indexing", "Latent Dirichlet Allocation", "Interpretation and Evaluation", "Probabilistic Document Clustering and Topic Models", "Probabilistic Models for Information Extraction", "Hidden Markov Models", "Stochastic Context Free Grammars", "Maximal Entropy Modeling", "Maximal Entropy Markov Models", "Conditional Random Fields", "Recent Trends: Visualization Techniques in Link Analysis - Example", "Text Mining in Multimedia", "Text Analytics in Social Media", "Opinion Mining and Sentiment Analysis", "Opinion Lexicon Expansion", "Text Mining Applications and Case studies"]}], "course_material": ["Sholom Weiss, Nitin Indurkhya, Tong Zhang, Fred Damerau \u201cThe Text Mining Handbook: Advanced Approaches in Analyzing Unstructured Data\u201d, Springer, paperback 2010.", "Ronen Feldman, James Sanger -\u201cThe Text Mining Handbook: Advanced Approaches in Analyzing Unstructured Data\u201d-Cambridge University press, 2006.", "Charu C. Aggarwal ,Cheng Xiang Zhai, Mining Text Data, Springer; 2012", "Introduction to Information Retrieval. Christopher D. Manning, Prabhakar Raghavan, and Hinrich Schuetze, Cambridge University Press, 2007."]}, {"name": "Adhoc & Sensor Network", "semester": 7, "department": "it", "credits": "3-0-0, (3)", "status": "Program Elective", "code": "IT107202IT", "pre_requisites": ["Computer Networks"], "units": [{"unit_number": 1, "unit_name": "Mobile Adhoc Networks", "topics": ["Introductory concepts.", "Different models of operation.", "Various applications of MANET, Destination Sequenced Distance Vector protocol - overview, route advertisement, extending base station coverage,", "Dynamic Source Routing protocol - overview and properties, Support for heterogeneous networks and mobile IP, Multicast routing with DSR."]}, {"unit_number": 2, "unit_name": "Routing protocols in MANET", "topics": ["Ad Hoc On -Demand Distance -Vector protocol - properties, unicast route Establishment, mul ticast route establishment, Link Reversal Routing - Gafni-Bertsekas algorithm, lightweight mobile routing algorithm , Temporally ordered routing algorithm,Preserving battery life of mobile nodes - Associativity based routing, Recent trends in MANET."]}, {"unit_number": 3, "unit_name": "Wireless Sensor Networks", "topics": ["Introduction and Overview of Wireless Sensor Networks, Background of Sensor Network Technology, Applications of Wireless Sensor Networks, Sensor Network Architecture, QoS and Energy Management."]}, {"unit_number": 4, "unit_name": "MAC and routing protocols in WSN", "topics": ["Medium Access Control Protocols for Wireless Sensor Networks, Schedule-Based Protocols, Random Access-Based Protocols, Coordination, Schedule Synchronization, Adaptive Listening, Ac cess Control and Data Exchange, Routing Protocols for Wireless Sensor Networks, Routing Challenges and Design Issues, Routing Strategies: WSN Routing Techniques, Flooding and Its Variants, Sensor Protocols for Information via Negotiation, Low -Energy Adaptive Clustering Hierarchy, Power-Efficient Gathering in Sensor Information Systems, Directed Diffusion."]}], "course_material": ["1. Charles E. Perkins, \u201cAd Hoc Networking\u201d Addison-Wesley Professional.", "2. Prasant Mohapatra, Srikanth Krishnamurthy, \u201cAD HOC NETWORKS: Technologies and Protocols\u201d Springer.", "3. Kazem Sohraby, Daniel Minoli, and TaiebZnati, \"Wireless sensor networks: technology, protocols, and applications\" Johnwiley& sons, 2007.", "1. Anna Hac, \u201cWireless Sensor Network Designs\u201d, John Wiley, 2003.", "2. Feng Zhao & Leonidas J. Guibas, \u201cWireless Sensor Networks- An Information Processing Approach\", Elsevier, 2007.", "3. Cory Beard, and William Stallings. Wireless communication networks and systems. Pearson, 2015."]}, {"name": "Software Testing", "semester": 7, "department": "it", "credits": "3-0-0, (3)", "status": "Program Elective", "code": "IT107203IT", "pre_requisites": ["Software Engineering"], "units": [{"unit_number": 1, "unit_name": "Introduction to Testing", "topics": ["Testing as an Engineering Activity", "Testing as a Process", "Testing axioms", "Basic definitions", "Software Testing Principles", "The Tester\u2019s Role in a Software Development Organization", "Origins of Defects", "Cost of defects", "Defect Classes", "The Defect Repository and Test Design", "Defect Examples", "Developer/Tester Support of Developing a Defect Repository", "Defect Prevention strategies."]}, {"unit_number": 2, "unit_name": "Test Case Design", "topics": ["Test case Design Strategies", "Using Black Bod Approach to Test Case Design", "Random Testing Requirements based testing", "Boundary Value Analysis", "Equivalence Class Partitioning", "State based testing", "Cause -effect graphing", "Compatibility testing", "user documentation testing", "domain testing", "Using White Box Approach to Test design", "Test Adequacy Criteria", "static testing vs. structural testing", "code functional testing", "Coverage and Control Flow Graphs."]}, {"unit_number": 3, "unit_name": "Levels of Testing", "topics": ["The need for Levers of Testing", "Unit Test", "Unit Test Planning", "Designing the Unit Tests", "The Test Harness", "Running the Unit tests and Recording results", "Integration tests", "Designing Integration Tests", "Integration Test Planning", "Scenario testing", "Defect bash elimination System Testing", "Acceptance testing", "Performance testing", "Regression Testing", "Internationalization testing", "Ad-hoc test", "Alpha, Beta Tests", "Testing OO systems", "Usability and Accessibility testing."]}, {"unit_number": 4, "unit_name": "Test Management", "topics": ["People and organizational issues in testing", "Organization structures for testing teams", "testing services", "Test Planning", "Test Plan Components", "Test Plan Attachments", "Locating Test Items", "test management", "test process", "Reporting Test Results", "The role of three groups in Test Planning and Policy Development", "Introducing the test specialist", "Skills needed by a test specialist", "Building a Testing Group", "Software test automation", "skill needed for automation", "scope of automation", "design and architecture for automation", "requirements for a test tool", "challenges in automation", "Test metrics and measurements", "project, progress and productivity metrics."]}], "course_material": ["SrinivasanDesikan and Gopalaswamy Ramesh, Software Testing \u2013 Principles and Practices,Pearson Education, 2006.", "Ron Patton, Software Testing, Second Edition, Sams Publishing, Pearson Education, 2007.", "Ilene Burnstein, \u201cPractical Software Testing\u201d, Springer International Edition, 2003.", "Edward Kit,\u201d Software Testing in the Real World \u2013 Improving the Process\u201d, PearsonEducation, 1995.", "Boris Beizer,\u201d Software Testing Techniques\u201d \u2013 2nd Edition, Van Nostrand Reinhold, NewYork, 1990."]}, {"name": "Cyber Forensics and Audit", "semester": 7, "department": "it", "credits": "3-0-0, (3)", "status": "Program Elective", "code": "IT107204IT", "pre_requisites": ["Data Structures", "Software Engineering"], "units": [{"unit_number": 1, "unit_name": "File system", "topics": ["CHS", "LBA", "HPA", "write blockers", "Extracting & recovering partitions", "MBR", "DOS partition table", "Extended partition table", "RAID", "FAT file system: Architecture, File creation, File deletion", "NTFS file system: Architecture, File creation, File deletion, Compression, encryption and indexing", "Extended file systems: EXT2, EXT3 and EXT4, Architecture, File creation, File deletion and Journaling", "Apple File System (APFS)", "Other Disk structures", "Windows and Linux boot process", "Filesystem acquisition and recovery"]}, {"unit_number": 2, "unit_name": "Windows Forensic Analysis", "topics": ["Window artifacts", "Evidence volatility", "System time", "Logged on user(s)", "Open files", "MRUs", "Network information", "Process information", "Service information", "Windows Registry", "Startup tasks", "Memory dumping", "Document Forensics: PDF structure, PDF analysis, MSOffice Document structure and analysis, Macros, Windows thumbnails, Android Thumbnails"]}, {"unit_number": 3, "unit_name": "Mobile Forensics", "topics": ["SIM Card", "Android architecture", "Android File System", "Android application", "Android SDK", "Android Debug Bridge", "Memory & SIM acquisition", "Virtual Machines", "Network Forensics", "Cybercrime investigation: Pre investigation, SOP for Investigation", "Case scenarios: social media crime, Online defacement crime, Email investigation", "CDR Analysis"]}, {"unit_number": 4, "unit_name": "Auditing", "topics": ["Internal Audit and IT Audit Function", "IT Governance", "Frameworks, Standards, and Regulations", "Identifying information assets", "Risk assessment", "Risk management", "Types of Auditing", "ISO 27001", "PCIDSS"]}], "course_material": ["1. Brown, Christopher LT., \u201cComputer evidence: Collection and preservation\u201d, Charles River Media, Inc., 2009.", "2. Enfinger, Frank, Amelia Phillips, Bill Nelson, and Christopher Steuart. \"Guide to computer forensics and investigations.\" Boston: Thomson Course Technology (2005).", "3. Vacca, John R. Computer forensics: computer crime crime scene investigation . Charles River Media, Inc., 2002.", "4. Bunting, Steve and William Wei. EnCase Computer Forensics: The Official EnCE: EnCaseCertifed Examiner Study Guide. Sybex,", "5. Prosise, Chris, Kevin Mandia, and Matt Pepe. Incident response & computer forensics . McGraw-Hill, Inc., 2003.", "6. Carrier, Brian. File system forensic analysis. Addison-Wesley Professional, 2005."]}, {"name": "Quantum Machine Learning", "semester": 7, "department": "it", "credits": "3-0-0, (3)", "status": "Program Elective", "code": "IT107205IT", "pre_requisites": ["Data Structures", "Discrete Structures", "Data Mining"], "units": [{"unit_number": 1, "unit_name": "Quantum Computational Models", "topics": ["Introduction to Quantum computing", "Quantum Computer Architecture", "the basics of the quantum circuit model", "Qubit and Quantum State", "working with one qubit and the Bloch sphere", "working with two qubits and entanglement", "Working with multiple qubits and universality."]}, {"unit_number": 2, "unit_name": "Essential Quantum Encoding and Algorithms", "topics": ["Encodings of Data", "Quantum Encoding", "Basis Encoding", "Amplitude Encoding", "Qsample Encoding", "Essential Quantum Routines for QML", "Harrow\u2013Hassidim\u2013Lloyd algorithm", "Grover\u2019s Algorithm", "Quantum phase estimation", "Variational quantum circuit"]}, {"unit_number": 3, "unit_name": "Unit 3", "topics": ["QML toolkit", "Hamiltonian simulation", "SWAP test", "Qdist routine", "ML vs. QML", "Quantum principal component analysis", "Quantum Linear Regression", "Quantum classification: Distance-based quantum classification", "Quantum k-nearest neighbours", "Quantum support vector machine", "SVM training with a quantum annealer", "Quantum-inspired classification"]}, {"unit_number": 4, "unit_name": "Unit 4", "topics": ["Quantum clustering: Quantum K-Means Clustering", "Quantum K-medians", "Quantum divisive clustering", "Clustering with a quantum annealer", "Quantum neural networks: Quantum Perceptron", "Quantum feedforward neural networks", "Quantum Convolutional Neural Network (QCNN)", "CNN vs. QCNN", "Quantum AutoEncoder (QAE)", "Quantum generative adversarial networks"]}], "course_material": ["Pastorello, Davide. \u201cConcise Guide to Quantum Machine Learning\u201d, Springer Nature, 2022.", "Kaiser, Sarah C., and Christopher Granade. \u201cLearn quantum computing with python and Q#: A hands-on approach\u201d, Simon and Schuster, 2021", "Wittek, Peter. \u201cQuantum machine learning: what quantum computing means to data mining\u201d , Academic Press, 2014.", "Combaro, E. F., and Samuel Gonz\u00e1lez-Castillo, \u201cA Practical Guide to Quantum Machine Learning and Quantum Optimization: Hands-on Approach to Modern Quantum Algorithms\u201d (2023)."]}]
+--------------------------------------------------------------------------------
+[ASSISTANT]
+The course "Neural Networks and Fuzzy Logic" (code: IT107301IT) is offered in the 7th semester of the IT department.
+
+Here are the important topics:
+
+**Unit 1: Introduction to Artificial Neural Networks**
+*   Elementary Neurophysiology, Biological Neuron, Biological and Artificial Neuron Models, characteristics of ANN, Historical developments, Neural Networks viewed as directed graphs, Feedback from neurons to ANN, Artificial Intelligence and Neural Networks, McCulloch-Pitts Model, Network Architectures, Recurrent Networks, Topologies, overview of Single-layered Feedforward Networks and Multi-layered Feed-forward Networks.
+*   Classification Taxonomy of ANN, Different Learning Strategy -Supervised and Unsupervised learning, Reinforcement, Learning rules, Memory models, Stability and Convergence, Activation and Synaptic Dynamics, Competitive, Error-Correction Learning.
+
+**Unit 2: Associated Memories and Supervised network**
+*   Associative Memory, Hebbian Learning, General concept of associated memory, Bidirectional Associated memory (BAM) architecture, BAM Training algorithm, Hopfield Network Architecture, Discrete and continuous versions, Storage and recall algorithm, stability analysis.
+*   Perceptron model, least mean square algorithm (Rosenblat Algorithm), ADALINE algorithm and applications, MADALINE, Algorithm and applications, Multilayered Feed Forward Neural Networks model, Backpropagation Algorithm, XOR – Problem, The generalized Delta rule, BPN Applications.
+
+**Unit 3: Unsupervised network and applications of network model**
+*   Self-organizing Feature map algorithm, Learning Vector Quantization, Counter Propagation Network. Architecture, Algorithm and applications of Complex Pattern Recognition: ART/ART-1, ART-2, Cognitron, Structure & training, Neo-cognitron architecture, Data processing -performance, addition of lateral inhibition & feedback to the neo-cognitron, Character Recognition and Handwritten Digit recognition, Simulated Annealing, Support Vector machines.
+
+**Unit 4: Neural Fuzzy Systems**
+*   Introduction to classical sets -properties, Operations, and relations: Introduction to Fuzzy sets, membership, uncertainty, operations, relations, cardinalities, Examples of Fuzzy logic, defuzzification to crisps sets and its methods, Fuzzy Associative memories, Fuzziness in neural networks and examples, Fuzzy logic control and fuzzy classification.
+
+**Course Materials/Textbooks:**
+*   Artificial Neural Networks by B. Yagna Narayan, PHI
+*   Neural Networks Fuzzy Logic & Genetic Algorithms by Rajshekaran & Pai, Prentice Hall
+*   Principles of Soft Computing by S. N. Sivanandam, S. N. Deepa, Wiley-India.
+*   Introduction to Neural Networks using Matlab 6.0 by S.N. Sivanandam, S Sumathi, S.N.Deepa, TMH.
+*   Neural Networks by James A. Freeman and David M. Strapetuns, Prentice Hall.
+*   Neural Network & Fuzzy System by Bart Kosko, PHI.
+*   Neural Network Design by Hagan Demuth Deale Vikas Publication House.
+
+To find professors for help, please specify what kind of help you need (e.g., general guidance, specific topic explanation, research interest). I will use this to query the faculty information.
+--------------------------------------------------------------------------------
+[USER]
+I want general guidance from professors who are proficient in this domain of machine learning, neural networks etc
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: b1ad4ad5-1ff4-459c-80db-4bad84d63e69
+        name: faculty_info_tool
+        args: {
+        "department": "it",
+        "query": "professors proficient in machine learning and neural networks"
+}
+--------------------------------------------------------------------------------
+[TOOL (faculty_info_tool)]
+The following faculty members are proficient in Machine Learning and/or Artificial Intelligence (which includes Neural Networks):
+
+*   Dr. Satya Prakash Sahu (Associate Professor)
+*   Dr. Suvendu Rup (Associate Professor)
+*   Dr. Pavan Kumar Mishra (Associate Professor)
+*   Dr. Rajesh Doriya (Associate Professor)
+*   Dr. Rekh Ram Janghel (Associate Professor)
+*   Dr. Govind P. Gupta (Associate Professor)
+*   Dr. RupeshKumarDewang (Associate Professor)
+*   Dr. Mridu Sahu (Assistant Professor (Gr-I))
+*   Dr. Tirath Prasad Sahu (Assistant Professor (Gr-I))
+*   Dr. Chandrashekar Jatoth (Assistant Professor (Gr-I))
+*   Dr. Rayanoothala Praneetha Sree (Assistant Professor (Gr-I))
+*   Dr. Kapil Kumar Soni (Assistant Professor)
+*   Dr. Nikhlesh Kumar Mishra (Temporary Faculty)
+*   Dr. Ashish Kumar Misal (Temporary Faculty)
+*   Mrs. Juhi Saurabh (Temporary Faculty)
+--------------------------------------------------------------------------------
+[ASSISTANT]
+For general guidance in Machine Learning and Neural Networks, you can reach out to the following professors in the IT department:
+
+*   Dr. Satya Prakash Sahu (Associate Professor)
+*   Dr. Suvendu Rup (Associate Professor)
+*   Dr. Pavan Kumar Mishra (Associate Professor)
+*   Dr. Rajesh Doriya (Associate Professor)
+*   Dr. Rekh Ram Janghel (Associate Professor)
+*   Dr. Govind P. Gupta (Associate Professor)
+*   Dr. RupeshKumarDewang (Associate Professor)
+*   Dr. Mridu Sahu (Assistant Professor (Gr-I))
+*   Dr. Tirath Prasad Sahu (Assistant Professor (Gr-I))
+*   Dr. Chandrashekar Jatoth (Assistant Professor (Gr-I))
+*   Dr. Rayanoothala Praneetha Sree (Assistant Professor (Gr-I))
+*   Dr. Kapil Kumar Soni (Assistant Professor)
+*   Dr. Nikhlesh Kumar Mishra (Temporary Faculty)
+*   Dr. Ashish Kumar Misal (Temporary Faculty)
+*   Mrs. Juhi Saurabh (Temporary Faculty)
+--------------------------------------------------------------------------------
+[USER]
+give me the contact of Dr. Satya Prakash Sahu sir
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: b1a85ea4-2c95-4819-b4d0-64af1f04dfd4
+        name: faculty_info_tool
+        args: {
+        "query": "contact information of Dr. Satya Prakash Sahu",
+        "department": "it"
+}
+--------------------------------------------------------------------------------
+[TOOL (faculty_info_tool)]
+The contact information for Dr. Satya Prakash Sahu is:
+*   **Contact No. / E-mail:** 9329173783, spsahu.it@nitrr.ac.in, spsahu.it@gmail.com
+--------------------------------------------------------------------------------
+[ASSISTANT]
+You can contact Dr. Satya Prakash Sahu at:
+*   **Mobile/Email:** 9329173783, spsahu.it@nitrr.ac.in, spsahu.it@gmail.com
+--------------------------------------------------------------------------------
+[USER]
+whats the criteria for the evaulation of semester exams of m.tech students?
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: 966fca43-41f0-4a27-b4c9-7ebfc1a5d9b2
+        name: ordinance_tool
+        args: {
+        "filters": {
+                "$and": [
+                        {
+                                "degree": {
+                                        "$eq": "M.Tech"
+                                }
+                        },
+                        {
+                                "program_level": {
+                                        "$eq": "Postgraduate"
+                                }
+                        }
+                ]
+        },
+        "query": "evaluation criteria for semester exams"
+}
+--------------------------------------------------------------------------------
+[TOOL (ordinance_tool)]
+Source: None (Page ?)
+Grades are awarded based on student performance relative to instructor expectations. A letter grade with corresponding grade points is assigned for each registered course, determined by the total marks from TA, MSE, and ESE. Academic performance is evaluated on a ten-point scale, and earned credits are accumulated upon passing. A minimum credit requirement is necessary for degree qualification and semester continuation.
+
+Source: None (Page ?)
+The Postgraduate Departmental Academic Committee (PG-DAC) must approve internship feasibility recommendations for students. If approved, the student will be assigned a departmental supervisor and potentially an external co-supervisor from the internship organization. The PG-DAC consists of the Head (Chairperson), two senior faculty members from the PG specialization, an external observer (Professor from another department), and the PG Coordinator/Faculty Advisor (Convenor). For the M. Tech. program, semester examinations (theory and practical) are conducted at the end of each semester (November-December and April-May in the first academic year), known as End Semester Exams (ESE). Mid Semester Exams (MSE) are also held during these semesters.
+
+Source: None (Page ?)
+Subject teachers must submit mid-semester exam marks to the Head of Department within two weeks of the exam's end. For end-semester exams, answer scripts will be shown to students up to one day before grade finalization to ensure transparency. Students can appeal to the DGC within three days of the interim results' publication on the Institute Website. Valued answer scripts from both mid and end-semester exams must be sent to the examination section for preservation for up to 12 months after results publication.
+
+Source: None (Page ?)
+At the end of each semester, except the final semester, students will receive a grade sheet detailing their CPI, SPI, and individual subject grades. A consolidated grade sheet will be issued for the final semester, replacing all previous ones. Subject teachers or PEC Chairmen must submit final grades to the Head of Department, who will then present them to the DAC for review and recommendation before forwarding them to the Examination Section. Answer scripts from mid-semester exams and assignments will be shown to students within the academic calendar's timeframe for transparency.
+
+Source: None (Page ?)
+The Mid Semester Examination (MSE) and Teachers’ Assessment (TA) are components of the M. Tech. Programme. End Semester Exams (ESE) are conducted in November-December for the third semester and April-May for the fourth semester. Backlog subjects are handled through supplementary examinations, with two attempts allowed for passing each subject/semester.
+--------------------------------------------------------------------------------
+[ASSISTANT]
+For M.Tech students, semester exam evaluation is based on a combination of Teacher's Assessment (TA), Mid Semester Exams (MSE), and End Semester Exams (ESE). A letter grade with corresponding grade points is assigned for each course, reflecting the total marks from these components. Academic performance is evaluated on a ten-point scale, and earned credits are accumulated upon passing.
+
+MSE and ESE are conducted during the semester, with ESE typically held in November-December and April-May. Subject teachers submit MSE marks within two weeks of the exam. Answer scripts for ESE are shown to students before grade finalization for transparency.
+--------------------------------------------------------------------------------
+[USER]
+now give me the criteria for b.tech students
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: fed70814-adbd-4dda-baaa-80c073e7ff92
+        name: ordinance_tool
+        args: {
+        "filters": {
+                "$and": [
+                        {
+                                "degree": {
+                                        "$eq": "B.tech"
+                                }
+                        },
+                        {
+                                "program_level": {
+                                        "$eq": "Undergraduate"
+                                }
+                        }
+                ]
+        },
+        "query": "evaluation criteria for semester exams"
+}
+--------------------------------------------------------------------------------
+[TOOL (ordinance_tool)]
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+The evaluation pattern for theory courses includes 20 marks for continuous assessment (class tests, quizzes, assignments, tutorials), 30 marks for the mid-semester exam, and 50 marks for the end-semester exam. Laboratory courses have a continuous assessment of 100 marks, with 40 marks for continuous evaluation (TA) and 20 marks for the mid-semester evaluation.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Continuous evaluation for end-semester examinations is worth 40 marks and can be distributed among class work, lab records, quizzes, skill tests, assignments, and mini-projects. Mid-semester evaluations include practical performance and viva-voce. For projects, a maximum of four students can be assigned per project. The Head of Department appoints a project coordinator who, with faculty consultation, creates a list of project topics by the start of the 7th semester. The project evaluation committee (PrC) consists of the Head of Department (or nominee as Chairman), project coordinator, and project guide(s). Project allocation, guide assignment, and a tentative work plan must be finalized before the last day of the 6th semester.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+The Cumulative Performance Index (CPI) and Semester Performance Index (SPI) are calculated using the formula: SPI = Σ(Course credit × Grade point) / Σ(Course credit) for all courses in a semester. CPI = Σ(Course credit × Grade point) / Σ(Course credit) for all passed courses across all completed semesters. Grade points are recorded up to two decimal places without rounding off. Grade sheets with CPI and SPI are issued at the end of each semester, except for the final semester (VIIIth semester for B. Tech.), where a consolidated grade sheet is issued, superseding all previous ones. Teacher's assessment, a component of the continuous assessment process, includes class tests, assignments, viva-voce, quizzes, and laboratory assignments.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students auditing a course must secure at least 35% in the mid-semester examination and not receive an 'R' grade to be eligible for the end-semester examination. Grades obtained in audited courses will be recorded on the grade sheet with an 'AD' notation but will not be included in SPI/CPI calculations or considered for honors. 
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+The Department will submit student grades in all subjects to the DAC for review and recommendation. The DAC's recommended grades will be forwarded to the Examination Section. After correction, answer scripts for class tests, mid-semester exams, and assignments will be shown to students per the Academic Calendar. Marks from mid-semester exams and class/minor tests must be submitted to the Head of Department two weeks after the mid-semester exams conclude. Student performance in these exams will be discussed in the DAC. Transparency in end-semester exam script evaluation will be ensured.
+--------------------------------------------------------------------------------
+[ASSISTANT]
+For B.Tech students, the evaluation criteria for semester exams are as follows:
+
+**Theory Courses:**
+*   **Continuous Assessment:** 20 marks (includes class tests, quizzes, assignments, tutorials).
+*   **Mid-Semester Exam:** 30 marks.
+*   **End-Semester Exam:** 50 marks.
+
+**Laboratory Courses:**
+*   **Continuous Assessment:** 100 marks, distributed as:
+    *   40 marks for continuous evaluation (class work, lab records, quizzes, skill tests, assignments, mini-projects).
+    *   20 marks for mid-semester evaluation (practical performance and viva-voce).
+
+**Overall Performance:**
+*   The Cumulative Performance Index (CPI) and Semester Performance Index (SPI) are calculated using the formula: Σ(Course credit × Grade point) / Σ(Course credit).
+*   Grade sheets with CPI and SPI are issued at the end of each semester.
+--------------------------------------------------------------------------------
+[USER]
+give me the list of subjects in my semester and group them with similar topics so i can study easily
+--------------------------------------------------------------------------------
+[ASSISTANT]
+Here are the subjects for your 7th semester in the IT department, grouped by similar topics to help you study:
+
+**1. Artificial Intelligence, Machine Learning & Data Science**
+*   **Neural Networks and Fuzzy Logic (IT107301IT):** Focuses on the fundamentals of neural networks, learning algorithms, and fuzzy logic systems.
+*   **Quantum Machine Learning (IT107205IT):** Explores the intersection of quantum computing and machine learning.
+*   **Computer Vision (IT107303IT):** Deals with how computers can gain high-level understanding from digital images or videos.
+*   **Text Mining (IT107201IT):** Covers techniques for extracting high-quality information from text.
+*   **Information Retrieval (IT107206IT):** Focuses on storing, searching, and retrieving information from large collections of documents, often involving AI/ML concepts.
+*   **Bio-Informatics (IT107207IT):** Applies computational techniques, including machine learning, to biological data.
+
+**2. Networking & Distributed Systems**
+*   **Internet of Things (IT107101IT):** Covers the architecture, protocols, and applications of interconnected devices.
+*   **Distributed Systems (IT107102IT):** Focuses on the concepts, models, and challenges of distributed computing.
+*   **Adhoc & Sensor Network (IT107202IT):** Deals with the principles and protocols of mobile ad-hoc networks and wireless sensor networks.
+
+**3. Software Engineering & Security**
+*   **Secure Software Engineering (IT107208IT):** Addresses practices for building secure software throughout the development lifecycle.
+*   **Software Testing (IT107203IT):** Covers principles, practices, and levels of software testing.
+*   **Cyber Forensics and Audit (IT107204IT):** Focuses on digital forensics, investigation, and IT auditing.
+
+**4. Human-Computer Interaction**
+*   **Human Computer Interaction Design (IT107302IT):** Explores the design and evaluation of interactive computing systems for human use.
+--------------------------------------------------------------------------------
+[USER]
+whats the attendance criteria for b.tech students?
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: bcb407db-f783-4dfb-98c6-ababd143edff
+        name: ordinance_tool
+        args: {
+        "filters": {
+                "$and": [
+                        {
+                                "degree": {
+                                        "$eq": "B.tech"
+                                }
+                        },
+                        {
+                                "program_level": {
+                                        "$eq": "Undergraduate"
+                                }
+                        }
+                ]
+        },
+        "query": "attendance criteria"
+}
+--------------------------------------------------------------------------------
+[TOOL (ordinance_tool)]
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students require a minimum of 75% attendance (including condonation) in each course to be eligible to appear for the end-semester examination. Failure to meet this requirement will result in an 
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students with attendance shortages must re-register for the course when it is next offered. For absences up to two weeks, students must submit a leave application with supporting documents to the Head of Department, who will grant the leave. Students will be marked absent during this period and must still meet the 75% attendance requirement for end-semester examinations. Continuous absence must be reported immediately to the Dean (Academics) through the Head of Department. Course teachers will inform students of their attendance status regularly.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students representing the Institute in approved extracurricular activities like sports, cultural meets, seminars, workshops, conferences, and interviews arranged through the Training & Placement Department, NCC/NSS camps, etc., will be considered on-duty for a maximum of five days per semester. Prior permission from the competent authority is mandatory. This period of absence will be counted as present for attendance computation. There are no restrictions for promotion to the next semester, but students can register for a maximum of 30 credits per semester. In case of backlog, students must register for backlog papers first, prioritizing the oldest ones.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Teachers must submit valued answer scripts from mid-semester and end-semester exams to the examination section for preservation. Students are required to attend all classes. The Departmental Academic Committee (DAC) can condone up to 15% attendance shortage. The Dean of Academic Affairs can condone an additional 10% with valid reasons. In exceptional cases, the Director may relax attendance requirements, potentially with a grade reduction.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Attendance for all students is calculated from the semester's start date, regardless of registration date. First-year students' attendance is counted from their admission date or the start of classes, whichever is later. Late registration is permitted within one week of the announced date with a late fee, subject to Dean Academics' approval for compelling reasons. Registrations beyond one week are generally not allowed. Students must collect a signed registration sheet after registering each semester.
+--------------------------------------------------------------------------------
+[ASSISTANT]
+B.Tech students are required to have a minimum of 75% attendance in each course to be eligible to appear for the end-semester examination. If a student fails to meet this requirement, they will not be allowed to take the exam and must re-register for the course when it is next offered.
+
+*   The Departmental Academic Committee (DAC) can condone an attendance shortage of up to 15%.
+*   The Dean of Academic Affairs can condone an additional 10% for valid reasons.
+*   In exceptional cases, the Director may relax attendance requirements, which might lead to a grade reduction.
+*   Absences for representing the Institute in approved extracurricular activities (up to five days per semester with prior permission) are counted as present for attendance computation.
+*   For continuous absence, a leave application with supporting documents must be submitted to the Head of Department.
+--------------------------------------------------------------------------------
+[USER]
+whats the criteria for passing my semester?
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: 91e64692-782c-4a80-af07-3730bf4f357a
+        name: ordinance_tool
+        args: {
+        "filters": {
+                "$and": [
+                        {
+                                "degree": {
+                                        "$eq": "B.tech"
+                                }
+                        },
+                        {
+                                "program_level": {
+                                        "$eq": "Undergraduate"
+                                }
+                        }
+                ]
+        },
+        "query": "passing criteria for semester"
+}
+--------------------------------------------------------------------------------
+[TOOL (ordinance_tool)]
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students require a minimum of 75% attendance (including condonation) in each course to be eligible to appear for the end-semester examination. Failure to meet this requirement will result in an 
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students who receive an 'F' grade must retake the course until a passing grade is achieved. An 'F' grade can extend the time needed to complete degree requirements. If a student receives one or more 'F' grades in a semester, their Semester Performance Index (SPI) for that semester will not be calculated. Students absent from end-semester examinations due to valid reasons will receive an 'NA' grade. An 'NA' grade in any subject will result in a zero SPI and Cumulative Performance Index (CPI) for that semester until the course is cleared. Students must take a supplementary examination to convert 'NA' to a passing grade. Failure to appear in the supplementary examination will result in an 'R' grade.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Academically meritorious students can change their program based on their performance in the first two semesters, following the 
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Mid-semester and supplementary exams are conducted by departments according to the academic calendar. At least two syllabus units must be completed before the mid-semester exam. End-semester exams are typically held centrally. Students unable to attend mid-semester exams due to serious illness (requiring hospitalization/bed rest, with intimation to the medical officer) or family calamity must apply to the Head of Department within one week of the exam period, with supporting certificates. The Departmental Academic Committee (DAC) will review these cases, and approved students will be permitted to retake the exam.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students can opt for Audit and/or Honors during semester registration. If a student changes their branch after the second semester, they must mandatorily study branch-specific subjects, and the credits for these subjects will not count towards their SPI/CPI.
+--------------------------------------------------------------------------------
+[ASSISTANT]
+To pass a semester as a B.Tech student, you need to avoid receiving an 'F' or 'NA' grade in any course.
+
+*   **'F' Grade:** If you receive an 'F' grade in a course, you must retake that course until you achieve a passing grade. An 'F' grade will prevent the calculation of your Semester Performance Index (SPI) for that semester.
+*   **'NA' Grade:** An 'NA' grade is given if you are absent from the end-semester examination due to valid reasons. An 'NA' grade in any subject will result in a zero SPI and Cumulative Performance Index (CPI) for that semester until the course is cleared. You must take a supplementary examination to convert an 'NA' to a passing grade. Failure to appear in the supplementary examination will result in an 'R' grade.
+
+Additionally, you need a minimum of 75% attendance (including condonation) in each course to be eligible to appear for the end-semester examination.
+--------------------------------------------------------------------------------
+[USER]
+whats my fee structure?
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: 8ec07d73-de86-4b7d-9e1a-0c72141f2d63
+        name: ordinance_tool
+        args: {
+        "filters": {
+                "$and": [
+                        {
+                                "degree": {
+                                        "$eq": "B.tech"
+                                }
+                        },
+                        {
+                                "program_level": {
+                                        "$eq": "Undergraduate"
+                                }
+                        }
+                ]
+        },
+        "query": "fee structure"
+}
+--------------------------------------------------------------------------------
+[TOOL (ordinance_tool)]
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students must clear all previous semester dues and pay current semester fees. They should not have been debarred or struck off from the institute's rolls. Tuition fees are paid semester-wise after the first semester. Classes begin after registration or as per the academic calendar. Students can register for up to 30 credits per semester with departmental approval, within the academic calendar dates. Elective courses require a minimum of 20 registrations.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+A candidate can appeal the Standing Committee on Unfair Means Cases' decision by submitting a representation to the Director with a fee of Rs. 5000/-. The Director may then refer the case to an Appellate Committee for reconsideration. The Appellate Committee's decision, upon Director's approval, is final. UMC cases must be recorded daily in attendance and dispatch sheets. Candidates booked under UFM are not debarred from subsequent exams.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+The committee chairperson and members serve two-year terms, which the Director may alter. In cases of unfair means at examination centers, the Superintendent/Invigilator must immediately confiscate the candidate's answer sheet and any related materials, then issue a second answer sheet. This second sheet should be marked 
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+The committee members serve for a two-year term. The Chairperson nominates the convener and committee members, forwarding their names to the Dean (Academic). The Chairperson is also responsible for ensuring regular committee meetings and the implementation of the committee's recommendations, pending approval from the competent authority. The Convener is tasked with scheduling meetings as needed.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Minimum 5 Open Electives (OE) with 15 credits and 9 Programme Laboratories (PLR) with 9 credits are required. This distribution can be altered with Senate approval.
+--------------------------------------------------------------------------------
+[ASSISTANT]
+The provided information states that B.Tech students must clear all previous semester dues and pay current semester fees. Tuition fees are paid semester-wise after the first semester.
+
+However, the specific breakdown of the fee structure (e.g., exact amounts for tuition, hostel, examination fees) is not available in the current documentation.
+--------------------------------------------------------------------------------
+[USER]
+explain the credit structure breakdown of my course program.
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: 73094e9b-1e61-49f3-9773-5bf1f37c72fa
+        name: ordinance_tool
+        args: {
+        "filters": {
+                "$and": [
+                        {
+                                "degree": {
+                                        "$eq": "B.tech"
+                                }
+                        },
+                        {
+                                "program_level": {
+                                        "$eq": "Undergraduate"
+                                }
+                        }
+                ]
+        },
+        "query": "credit structure breakdown of course program"
+}
+--------------------------------------------------------------------------------
+[TOOL (ordinance_tool)]
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students can transfer credits earned from other reputed institutions, either within the country or abroad, upon recommendation from the Departmental Academic Committee (DAC) and approval from the Dean Academics. Students can also register for online (MOOC) courses to fulfill elective requirements (Program Elective and Open Elective), provided the courses are part of the approved program scheme, recommended by the DAC, and approved by the Head of Department. Credits for MOOCs are awarded only if the course is at least 40 hours long, evaluated by the offering institution, and sourced from renowned providers. The DAC will determine the corresponding institute grades for these courses.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students must register for backlog courses, prioritizing the oldest ones. The maximum credit registration per semester is 30, including backlog courses. Students who have changed their branch in the third semester can register for up to 34 credits in the third and fourth semesters to clear branch-specific subjects required for their new branch. Students must declare and register for any additional courses they wish to take for Audit or Honors during the semester registration period.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students must clear all previous semester dues and pay current semester fees. They should not have been debarred or struck off from the institute's rolls. Tuition fees are paid semester-wise after the first semester. Classes begin after registration or as per the academic calendar. Students can register for up to 30 credits per semester with departmental approval, within the academic calendar dates. Elective courses require a minimum of 20 registrations.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students may audit courses outside their current semester's curriculum if they do not exceed 30 credits, register for them during the official registration period in consultation with their faculty advisor/Head, achieve at least 35% in the mid-semester exam, and maintain regular attendance without receiving an 'R' grade. Failure to meet the mid-semester mark or receiving an 'R' grade will result in the audit course not being counted.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students failing to secure the minimum required credits in the first two semesters must register for two subjects in the third semester and one subject in the fourth semester. The maximum credit limit for the third and fourth semesters is 34 credits. A grade of E or higher is required for these subjects, and they will not be included in the calculation of CPI, SPI, or eligibility for B.Tech (Hons.) and B.Tech with distinction. Branch changes are permitted based on merit, provided the student strength in the original branch does not drop below 60% of the sanctioned limit.
+--------------------------------------------------------------------------------
+[ASSISTANT]
+For your B.Tech course program:
+
+*   You can register for a maximum of 30 credits per semester, including backlog courses.
+*   If you changed your branch in the third semester, you can register for up to 34 credits in the third and fourth semesters to clear branch-specific subjects.
+*   Minimum 5 Open Electives (OE) with 15 credits and 9 Programme Laboratories (PLR) with 9 credits are required. This distribution can be altered with Senate approval.
+*   Credits can be transferred from other reputed institutions or earned through approved online (MOOC) courses.
+*   Audit courses can be taken if they do not exceed 30 credits and meet certain performance criteria, but their credits will not count towards SPI/CPI.
+
+The exact total credit requirement for the entire B.Tech program and the detailed distribution across all course categories (core, electives, projects, etc.) is not explicitly available in the provided information.
+--------------------------------------------------------------------------------
+[USER]
+explain the grading system of my program
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: e677bd97-bbf8-44ed-ac75-f43545fac548
+        name: ordinance_tool
+        args: {
+        "filters": {
+                "$and": [
+                        {
+                                "degree": {
+                                        "$eq": "B.tech"
+                                }
+                        },
+                        {
+                                "program_level": {
+                                        "$eq": "Undergraduate"
+                                }
+                        }
+                ]
+        },
+        "query": "grading system"
+}
+--------------------------------------------------------------------------------
+[TOOL (ordinance_tool)]
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+The Cumulative Performance Index (CPI) and Semester Performance Index (SPI) are calculated using the formula: SPI = Σ(Course credit × Grade point) / Σ(Course credit) for all courses in a semester. CPI = Σ(Course credit × Grade point) / Σ(Course credit) for all passed courses across all completed semesters. Grade points are recorded up to two decimal places without rounding off. Grade sheets with CPI and SPI are issued at the end of each semester, except for the final semester (VIIIth semester for B. Tech.), where a consolidated grade sheet is issued, superseding all previous ones. Teacher's assessment, a component of the continuous assessment process, includes class tests, assignments, viva-voce, quizzes, and laboratory assignments.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+A student earns credits for a course upon obtaining a passing grade. Grades of R, F, or W do not count towards earned credits. Performance is evaluated on a ten-point scale, with letter grades assigned based on relative performance within the class, considering marks from TA, MSE, and ESE.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+The class average excludes marks of students with an F grade. Transitional grading symbols include NA (incomplete assessment), R (insufficient attendance, course repeat required), W (temporary withdrawal), and X (debarred for malpractice or indiscipline). An O grade signifies outstanding achievement, while an E grade represents average performance and the minimum passing grade. An F grade indicates failure, requiring the student to repeat the course.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+The evaluation pattern for theory courses includes 20 marks for continuous assessment (class tests, quizzes, assignments, tutorials), 30 marks for the mid-semester exam, and 50 marks for the end-semester exam. Laboratory courses have a continuous assessment of 100 marks, with 40 marks for continuous evaluation (TA) and 20 marks for the mid-semester evaluation.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+To be eligible for First Division with Distinction, a student must pass all courses without R, X, F, or W grades, without dropping any courses, and achieve a CPI of 8.5 or above. Failing to meet these criteria, even with a CPI of 8.5 or more, results in an award of First Division only. A CPI between 6.5 and 8.5 earns a First Division, while a CPI between 5.0 and 6.5 earns a Second Division. Valued answer scripts are preserved for 12 months after results are published.
+--------------------------------------------------------------------------------
+[ASSISTANT]
+The grading system for B.Tech students is based on a ten-point scale, with letter grades assigned considering marks from Teacher's Assessment (TA), Mid-Semester Exams (MSE), and End-Semester Exams (ESE).
+
+Here's a breakdown:
+
+**Grades and their implications:**
+*   **O:** Outstanding achievement.
+*   **E:** Represents average performance and is the minimum passing grade.
+*   **F:** Indicates failure. If you receive an 'F' grade, you must repeat the course, and your Semester Performance Index (SPI) for that semester will not be calculated.
+*   **NA:** Incomplete assessment, typically due to absence from end-semester examinations for valid reasons. An 'NA' grade results in a zero SPI and Cumulative Performance Index (CPI) for that semester until the course is cleared through a supplementary examination.
+*   **R:** Signifies insufficient attendance, requiring the course to be repeated.
+*   **W:** Denotes temporary withdrawal from a course.
+*   **X:** Means debarred for malpractice or indiscipline.
+
+**Performance Indices:**
+*   **Semester Performance Index (SPI):** Calculated as Σ(Course credit × Grade point) / Σ(Course credit) for all courses in a semester.
+*   **Cumulative Performance Index (CPI):** Calculated as Σ(Course credit × Grade point) / Σ(Course credit) for all passed courses across all completed semesters.
+
+**Divisions based on CPI:**
+*   **First Division with Distinction:** Awarded if a student passes all courses without R, X, F, or W grades, without dropping any courses, and achieves a CPI of 8.5 or above.
+*   **First Division:** Awarded for a CPI between 6.5 and 8.5 (or if a student has a CPI of 8.5 or more but does not meet all criteria for Distinction).
+*   **Second Division:** Awarded for a CPI between 5.0 and 6.5.
+
+Credits for a course are earned only upon obtaining a passing grade (not R, F, or W).
+--------------------------------------------------------------------------------
+[USER]
+what are the minimum credits required to complete my b.tech?
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: a2313baa-fcc9-4c2e-9219-04b0aa8cee8f
+        name: ordinance_tool
+        args: {
+        "filters": {
+                "$and": [
+                        {
+                                "degree": {
+                                        "$eq": "B.tech"
+                                }
+                        },
+                        {
+                                "program_level": {
+                                        "$eq": "Undergraduate"
+                                }
+                        }
+                ]
+        },
+        "query": "minimum credits required to complete B.Tech"
+}
+--------------------------------------------------------------------------------
+[TOOL (ordinance_tool)]
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+A minimum of 177 earned credits are required for the 4-year B. Tech. program. The Performance Index is calculated based on course credits and grades, with a minimum required for satisfactory progress and program continuation. Credits are calculated as {L+T+P/2}, rounded up to the nearest whole number. A student must pass a semester to earn all its credits. A grade of 'E' or higher is the minimum passing grade for a course.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+B. Tech. students must complete 177 credits within 7 years. To be eligible for an Honors degree, students must pass two extra theory subjects (6-8 credits total) approved by the DAC, achieve a CPI of 8.5 or above, and pass all courses without R, X, F, or W grades, or dropping any courses.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+The B.Tech. program structure includes Essential Program Requirements (EPR), Programme Core (PC), Elective Courses (PE and OE), and Programme Laboratory Requirements (PLR). EPR comprises 15 courses totaling 63 credits, covering subjects like Mathematics, Physics, Chemistry, Professional Ethics, Communication Skills, Ecology and Environment, Engineering Practice, Basic Engineering, Computer Courses, Training/Internship, Project Work, and Extra Academic Activity. Programme Core Requirements (PCR) mandate a minimum of 17 courses with 68 credits. Elective Courses include Programme Electives (PE) with a minimum of 6 courses and 18 credits, and Open Electives (OE) with a minimum of 5 courses and 15 credits.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students failing to secure the minimum required credits in the first two semesters must register for two subjects in the third semester and one subject in the fourth semester. The maximum credit limit for the third and fourth semesters is 34 credits. A grade of E or higher is required for these subjects, and they will not be included in the calculation of CPI, SPI, or eligibility for B.Tech (Hons.) and B.Tech with distinction. Branch changes are permitted based on merit, provided the student strength in the original branch does not drop below 60% of the sanctioned limit.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+The B.Tech. Academic Programme offers degrees in eleven disciplines: Biomedical Engineering, Biotechnology, Chemical Engineering, Civil Engineering, Computer Science and Engineering, Electrical Engineering, Electronics and Communication Engineering, Information Technology, Mechanical Engineering, Metallurgical and Materials Engineering, and Mining Engineering. Admission to the first semester requires a Higher Secondary School Certificate (10+2) with Physics, Chemistry, and Mathematics from a recognized board or an equivalent examination.
+--------------------------------------------------------------------------------
+[ASSISTANT]
+To complete your 4-year B.Tech program, you need a minimum of **177 earned credits**. You must complete these credits within a maximum of 7 years.
+
+The credit structure includes:
+*   **Essential Program Requirements (EPR):** 15 courses totaling 63 credits (Mathematics, Physics, Chemistry, Professional Ethics, Communication Skills, Ecology and Environment, Engineering Practice, Basic Engineering, Computer Courses, Training/Internship, Project Work, and Extra Academic Activity).
+*   **Programme Core (PC):** Minimum of 17 courses with 68 credits.
+*   **Elective Courses:**
+    *   **Programme Electives (PE):** Minimum of 6 courses and 18 credits.
+    *   **Open Electives (OE):** Minimum of 5 courses and 15 credits.
+
+Credits are calculated as {L+T+P/2}, rounded up to the nearest whole number. You earn credits for a course only upon obtaining a passing grade (E or higher).
+--------------------------------------------------------------------------------
+[USER]
+whats the duration of my program?
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: 8a657d14-4303-4aa3-819f-3551fb3a3e2e
+        name: ordinance_tool
+        args: {
+        "filters": {
+                "$and": [
+                        {
+                                "degree": {
+                                        "$eq": "B.tech"
+                                }
+                        },
+                        {
+                                "program_level": {
+                                        "$eq": "Undergraduate"
+                                }
+                        }
+                ]
+        },
+        "query": "duration of B.Tech program"
+}
+--------------------------------------------------------------------------------
+[TOOL (ordinance_tool)]
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+The Chairman of the Senate has the final authority on the duration of a degree, including any gap periods, which count towards the maximum permissible time. Failure to complete the required process may lead to admission cancellation. The B. Tech. degree program normally spans eight semesters (four years), with English as the medium of instruction and examination. The teaching scheme generally includes Lecture (L), Tutorial (T), and Practical (P) components, with credits assigned per period per week. Changes to syllabi, up to one unit, require approval from the Departmental Academic Committee (DAC).
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students must clear backlog papers prioritizing the oldest ones. A maximum of seven theory subjects, including backlogs, can be registered per semester. Once a semester examination is passed, reappearing for improvement is not allowed. The B. Tech. program normally takes four years (eight semesters) to complete. However, students facing academic difficulties have a maximum of seven years (14 consecutive semesters) to fulfill all degree requirements.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Revisions to syllabi require approval from the Departmental Academic Committee (DAC) and the Senate. The B.Tech. program structure includes Essential Program Requirements (EPR), Programme Core (PC), Elective Courses (PE and OE), and Programme Laboratory Requirements (PLR). All B.Tech. programs mandate 4-6 weeks of industrial training or fieldwork, to be completed before degree eligibility. This training is typically undertaken during the summer vacation after the fourth and sixth semesters.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+A student is eligible for the award of the B.Tech. degree upon successful completion of the prescribed program of study, including registration and crediting of all core, professional, and open elective subjects. This also applies to students who have been granted temporary withdrawal.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+A minimum of 177 earned credits are required for the 4-year B. Tech. program. The Performance Index is calculated based on course credits and grades, with a minimum required for satisfactory progress and program continuation. Credits are calculated as {L+T+P/2}, rounded up to the nearest whole number. A student must pass a semester to earn all its credits. A grade of 'E' or higher is the minimum passing grade for a course.
+--------------------------------------------------------------------------------
+[ASSISTANT]
+The B.Tech degree program normally spans **eight semesters (four years)**. However, students have a maximum of **seven years (14 consecutive semesters)** to fulfill all degree requirements.
+--------------------------------------------------------------------------------
+[USER]
+can i withdraw a semester?
+--------------------------------------------------------------------------------
+[ASSISTANT]
+
+  └── tool_calls:
+      - id: 0665e436-319e-4801-bd4a-e51c95fc4ff1
+        name: ordinance_tool
+        args: {
+        "filters": {
+                "$and": [
+                        {
+                                "degree": {
+                                        "$eq": "B.tech"
+                                }
+                        },
+                        {
+                                "program_level": {
+                                        "$eq": "Undergraduate"
+                                }
+                        }
+                ]
+        },
+        "query": "withdraw a semester"
+}
+--------------------------------------------------------------------------------
+[TOOL (ordinance_tool)]
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students must apply for semester withdrawal at least one week before the End Semester Examination. Partial withdrawal is not permitted. Medical withdrawals require a certificate from the institute's Medical Officer or a registered medical practitioner if the student is off-campus. Students can withdraw a maximum of twice during their program. A 'W' grade will be awarded for the withdrawn semester, and semester and institute fees must still be paid.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+To be eligible for degree, a student must have earned the minimum credits, a CPI of 5.0 or above, no institutional dues, and no pending disciplinary actions. A student unable to attend classes for more than four weeks in a semester may apply for withdrawal from the semester to the Dean, Academics, through the Convener, DAC, with supporting documents. The decision of the Director & Chairman Senate is final. Applications for semester withdrawal must be made as early as possible and at least one week before the end of the semester.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students withdrawing from the institute must clear all outstanding dues. No fees paid will be refunded. Students who received scholarships or financial assistance must repay these amounts. The Director and Chairman, Senate's decision on withdrawal is final. Students admitted to a B.Tech. program typically continue in that branch. However, the Institute may allow a change of branch at the end of the first two semesters if vacancies exist, following MHRD guidelines. Specific rules for branch change are detailed in Annexure-I.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+A 'W' grade signifies withdrawal from the semester. Students can withdraw from a course until the mid-semester examination begins. An 'R' grade is given for insufficient attendance, requiring the student to repeat the course. Student performance is measured by the Semester Performance Index (SPI) and Cumulative Performance Index (CPI), calculated based on grades in registered courses for the semester and all completed semesters, respectively. Both SPI and CPI are recorded to two decimal places without rounding.
+
+Source: https://nitrr.ac.in/downloads/ordinance/B.Tech%20Oridnance%20Updated%20with%20Attachement.pdf (Page ?)
+Students with attendance shortages must re-register for the course when it is next offered. For absences up to two weeks, students must submit a leave application with supporting documents to the Head of Department, who will grant the leave. Students will be marked absent during this period and must still meet the 75% attendance requirement for end-semester examinations. Continuous absence must be reported immediately to the Dean (Academics) through the Head of Department. Course teachers will inform students of their attendance status regularly.
+--------------------------------------------------------------------------------
+[ASSISTANT]
+Yes, you can withdraw from a semester as a B.Tech student under certain conditions:
+
+*   **Application:** You must apply for semester withdrawal as early as possible, and at least one week before the End Semester Examination.
+*   **Reasons for Withdrawal:** If you are unable to attend classes for more than four weeks in a semester, you may apply for withdrawal. Medical withdrawals require a certificate from the institute's Medical Officer or a registered medical practitioner.
+*   **Approval:** The application is submitted to the Dean, Academics, through the Convener, DAC, and the final decision rests with the Director & Chairman Senate.
+*   **Limitations:** You can withdraw a maximum of twice during your entire B.Tech program.
+*   **Financial Implications:** A 'W' grade will be awarded for the withdrawn semester, and you will still be required to pay semester and institute fees. Partial withdrawal from a semester is not permitted.
+--------------------------------------------------------------------------------
